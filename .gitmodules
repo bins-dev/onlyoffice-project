@@ -4,3 +4,6 @@
 [submodule "onlyoffice-server"]
 	path = onlyoffice-server
 	url = https://github.com/bins-dev/onlyoffice-server.git
+[submodule "desktop-editors"]
+	path = desktop-editors
+	url = https://github.com/bins-dev/desktop-editors.git
