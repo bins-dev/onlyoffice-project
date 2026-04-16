@@ -1,3 +1,6 @@
 [submodule "document-server"]
 	path = onlyoffice-server
 	url = https://github.com/bins-dev/onlyoffice-server.git
+[submodule "onlyoffice-server"]
+	path = onlyoffice-server
+	url = https://github.com/bins-dev/onlyoffice-server.git
