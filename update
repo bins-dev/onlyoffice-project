@@ -18,8 +18,12 @@ for script in "${scripts[@]}"; do
     if [ ! -x "$script" ]; then
         chmod +x "$script"
     fi
-    echo "执行: $script"
+    echo -e "\e[31m***********************************************\e[0m"
+    echo -e "\e[31m执行: $script\e[0m"
+    echo -e "\e[31m***********************************************\e[0m"
+
     ./"$script"
+    echo ""
 done
 
 # 获取git仓库根目录
@@ -52,4 +56,3 @@ git commit -m "$COMMIT_MSG"
 
 # 推送到远程仓库
 git push origin master
-
